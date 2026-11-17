@@ -1,0 +1,106 @@
+{
+  "id": "C0150",
+  "kind": "watch",
+  "image": "watch.svg",
+  "language": {
+    "zh": "西班牙语",
+    "en": "Spanish"
+  },
+  "title": {
+    "zh": "智能表盘：在圆屏里排好信息",
+    "en": "Watch face: make a round screen readable"
+  },
+  "category": {
+    "zh": "可穿戴设备 · 视觉布局",
+    "en": "Wearable · Visual layout"
+  },
+  "summary": {
+    "zh": "为 Garmin Forerunner 970 调整表盘：解决重叠、放大时间，再细化图标、弧形排布和颜色。",
+    "en": "Refine a Garmin Forerunner 970 watch face: resolve overlaps, enlarge the time, then tune icons, curved placement, and color."
+  },
+  "why": {
+    "zh": "同一块小圆屏需要容纳多个指标，用户的审美偏好会逐轮变得具体。",
+    "en": "A small circular screen must fit several metrics while the user’s visual preferences become more specific."
+  },
+  "artifact": null,
+  "visualLabel": {
+    "zh": "需求示意图",
+    "en": "Requirements illustration"
+  },
+  "visualNote": {
+    "zh": "按真实需求绘制的结构示意，数字为展示用样例；不是设备截图，也不表示已接通真实传感器。",
+    "en": "A schematic drawn from the real requirements. Numbers are illustrative, not device readings or evidence of working sensor integration."
+  },
+  "checks": {
+    "zh": [
+      "时间、日期和各指标不重叠，数字时标不被遮挡",
+      "真实指标的数据来源与显示布局分别核验",
+      "图标、曲线排布、温度配色符合后续偏好"
+    ],
+    "en": [
+      "No overlapping time, date, metrics, or hour markers",
+      "Verify data sources separately from display layout",
+      "Respect later preferences for icons, curved placement, and temperature color"
+    ]
+  },
+  "takeaway": {
+    "zh": "“加入更多信息”之后，用户继续要求字号、透明度和层级调整。它考察的是持续收敛到用户偏好的能力。",
+    "en": "After requesting more information, the user refines size, opacity, and layering. The task tests progressive alignment with user preferences."
+  },
+  "turns": [
+    {
+      "sourceIndex": 18,
+      "original": "los elementos se estan solapando uno entre otros",
+      "title": {
+        "zh": "先解决元素重叠",
+        "en": "Resolve overlapping elements"
+      },
+      "translation": {
+        "zh": "当前元素互相重叠；用户要求黑底、大时间数字，并加入温度、心率、步数、电量和日期。",
+        "en": "Elements overlap. The user requests a black background, large time digits, and temperature, heart rate, steps, battery, and date."
+      },
+      "focus": {
+        "zh": "先建立清晰的信息层级。",
+        "en": "Establish a readable visual hierarchy."
+      }
+    },
+    {
+      "sourceIndex": 32,
+      "original": "quiero que pasos, pulso y bateria no tengan texto sino iconos",
+      "title": {
+        "zh": "把文字换成图标，沿圆弧排布",
+        "en": "Use icons along the lower arc"
+      },
+      "translation": {
+        "zh": "步数、心率和电量改用图标；三项沿屏幕底部弧线排列，电量显示进度条和百分比。",
+        "en": "Replace labels with icons; arrange the three metrics along the lower screen arc and show battery level as a bar and percentage."
+      },
+      "focus": {
+        "zh": "圆形屏幕对布局提出具体约束。",
+        "en": "The circular screen imposes concrete layout constraints."
+      }
+    },
+    {
+      "sourceIndex": 40,
+      "original": "la fecha un 30 % mas pequeña y en branco con unas trasparencia de 40%",
+      "title": {
+        "zh": "继续细调视觉偏好",
+        "en": "Refine visual preferences"
+      },
+      "translation": {
+        "zh": "日期再缩小 30%，用白色和 40% 透明度；同一轮还要求温度随冷热变色、卡路里用火焰图标，并去掉图标圆形背景。",
+        "en": "Make the date 30% smaller, white, with 40% transparency. The same turn also requests temperature-dependent color, a flame icon for calories, and removal of circular icon backgrounds."
+      },
+      "focus": {
+        "zh": "具体偏好在交互中逐步显露。",
+        "en": "Specific preferences emerge through interaction."
+      }
+    }
+  ],
+  "source": {
+    "file": "case-review-site/extractions/C0150.json",
+    "extractionSHA256": "a85d13dc5721b927d77fba21c0a04dc3147201061153434483cf4f3241fb6c0f",
+    "trajectorySHA256": "07d6253ecefc2267ac8c1b9fa6383f53fd6c219d146a0a1790ba2794f2cedb3d",
+    "note": "Source indices identify historical messages, not benchmark evaluation rounds. Translations and display summaries are editorial."
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" fill="#e7eef0"/><g font-family="Arial, sans-serif">
+<rect x="105" y="145" width="160" height="325" rx="34" fill="#2d3d40"/><rect x="169" y="470" width="32" height="74" fill="#778f91"/>
+<circle cx="185" cy="212" r="39" fill="#724745"/><circle cx="185" cy="308" r="39" fill="#7d7048"/><circle cx="185" cy="403" r="39" fill="#7cddae"/>
+<path d="M310 308h86m-15-12 15 12-15 12" fill="none" stroke="#71a399" stroke-width="4"/>
+<rect x="438" y="141" width="431" height="330" rx="18" fill="white"/><path d="M438 191h431" stroke="#e8eeee" stroke-width="2"/><g fill="#bfd4cd"><circle cx="462" cy="168" r="5"/><circle cx="480" cy="168" r="5"/><circle cx="498" cy="168" r="5"/></g>
+<text x="470" y="234" font-size="18" fill="#718e85">REQUESTED BEHAVIOR</text><text x="470" y="281" font-size="30" fill="#28594b" font-weight="bold">Device ↔ Dashboard</text>
+<g font-size="20" fill="#56776b"><text x="470" y="334">AUTO</text><text x="600" y="334">GREEN → AMBER → RED</text><text x="470" y="380">TRIGGER</text><text x="600" y="380">BUTTON / SENSOR</text><text x="470" y="426">LOG</text><text x="600" y="426">Preserve event source</text></g>
+<text x="480" y="594" text-anchor="middle" font-size="19" fill="#68857a">REQUIREMENTS ILLUSTRATION · NOT DEVICE EVIDENCE</text></g></svg>

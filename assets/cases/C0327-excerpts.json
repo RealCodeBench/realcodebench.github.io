@@ -1,0 +1,122 @@
+{
+  "id": "C0327",
+  "kind": "traffic",
+  "image": "traffic.svg",
+  "language": {
+    "zh": "法语",
+    "en": "French"
+  },
+  "title": {
+    "zh": "交通灯：设备和网页必须一致",
+    "en": "Traffic lights: device and dashboard must agree"
+  },
+  "category": {
+    "zh": "嵌入式与 Web · 状态同步",
+    "en": "Embedded + Web · State synchronization"
+  },
+  "summary": {
+    "zh": "修复 ESP32 交通灯、网页控制台与模拟器之间的周期逻辑、触发来源和状态同步。",
+    "en": "Repair cycle logic, trigger attribution, and synchronization across an ESP32 traffic light, web dashboard, and simulator."
+  },
+  "why": {
+    "zh": "红、黄、绿和行人按钮都很直观；真正的难点是让多个系统对同一次事件有一致理解。",
+    "en": "The lights and pedestrian button are familiar; the challenge is making multiple systems agree on the same event."
+  },
+  "artifact": null,
+  "visualLabel": {
+    "zh": "需求示意图",
+    "en": "Requirements illustration"
+  },
+  "visualNote": {
+    "zh": "图中表示用户要求的状态与事件流，不是硬件实拍或验证通过的系统。展示摘录不含原日志中的连接配置。",
+    "en": "The diagram shows requested states and event flow, not a hardware photograph or a verified implementation. Excerpts omit connection configuration from the raw logs."
+  },
+  "checks": {
+    "zh": [
+      "自动周期只包含绿、黄、红，不混入维护模式",
+      "维护模式只让黄灯闪烁，其余灯关闭",
+      "网页显示与设备一致，日志区分按钮和传感器触发"
+    ],
+    "en": [
+      "Automatic cycles contain green, amber, and red only",
+      "Maintenance flashes amber only; other lights remain off",
+      "Synchronize display and device, and distinguish button from sensor triggers"
+    ]
+  },
+  "takeaway": {
+    "zh": "同类问题在后续反馈中再次出现，用户最后要求逐个修复。这类任务需要跨设备、网页与日志核对证据。",
+    "en": "Similar issues recur in later feedback, and the user asks to fix them one by one. Evidence must be checked across the device, dashboard, and logs."
+  },
+  "turns": [
+    {
+      "sourceIndex": 16,
+      "original": "corrige le probleme du cycle auto il doit pas passer a maintenance vert orange rouge seulement",
+      "title": {
+        "zh": "自动周期不能混入维护模式",
+        "en": "Keep maintenance out of normal cycles"
+      },
+      "translation": {
+        "zh": "自动周期只能经过绿、黄、红；同一轮还要求维护模式只有黄灯闪烁，红灯必须关闭。",
+        "en": "Automatic operation must cycle through green, amber, and red only. Maintenance should flash amber while red stays off."
+      },
+      "focus": {
+        "zh": "模式和状态的边界要明确。",
+        "en": "Mode and state boundaries must be explicit."
+      }
+    },
+    {
+      "sourceIndex": 20,
+      "original": "le programme ne differencie pas entre detection par distance critique du capteur et bouton poussoir physique",
+      "title": {
+        "zh": "分清谁触发了行人通行",
+        "en": "Distinguish the pedestrian trigger"
+      },
+      "translation": {
+        "zh": "程序没有区分距离传感器检测和实体按钮触发；周期日志需要显示触发来源。",
+        "en": "The program does not distinguish a distance-sensor detection from a physical button press. Cycle logs must identify the source."
+      },
+      "focus": {
+        "zh": "相似结果可能来自不同事件。",
+        "en": "Similar outcomes can originate from different events."
+      }
+    },
+    {
+      "sourceIndex": 57,
+      "original": "lorsque j appui dans la commande du feu le bouton Demande de passage il n affiche pas declenchement par bouton il la traite normalement",
+      "title": {
+        "zh": "模拟器中的按钮仍被当成普通周期",
+        "en": "A simulated button still looks like a normal cycle"
+      },
+      "translation": {
+        "zh": "运行 Python 模拟器后，点击网页“请求通行”，日志仍没有显示按钮触发。",
+        "en": "With the Python simulator running, clicking the web pedestrian-request button still fails to log a button-triggered event."
+      },
+      "focus": {
+        "zh": "需要端到端核对事件传递。",
+        "en": "Trace the event end to end."
+      }
+    },
+    {
+      "sourceIndex": 98,
+      "original": "on procede par corriger ces erreur 1 par 1 pour ne pas compliquer la tache",
+      "title": {
+        "zh": "把反复出现的问题逐个修复",
+        "en": "Fix the recurring issues one at a time"
+      },
+      "translation": {
+        "zh": "用户再次列出周期、维护灯、实机与网页同步、按钮来源四类问题，并要求逐个处理。",
+        "en": "The user again lists cycle, maintenance-light, device/dashboard synchronization, and button-source issues, asking to address them one at a time."
+      },
+      "focus": {
+        "zh": "问题收敛与协作节奏同样重要。",
+        "en": "Issue convergence and collaboration pace both matter."
+      }
+    }
+  ],
+  "source": {
+    "file": "case-review-site/extractions/C0327.json",
+    "extractionSHA256": "18c2031b7aaeddc910de74e713cc724ad4c40545fe80906cf135c683971844bf",
+    "trajectorySHA256": "9659756d3a453205815a3de539b28cb787b0438d7c01f5243f89c781bac11c78",
+    "note": "Source indices identify historical messages, not benchmark evaluation rounds. Translations and display summaries are editorial."
+  }
+}

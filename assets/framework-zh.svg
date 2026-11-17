@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="850" viewBox="0 0 1700 850">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="20.0" y="46.0" width="490.0" height="710.0" rx="12.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<rect x="46.0" y="23.0" width="438.0" height="46.0" rx="10.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="265.0" y="57.22" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="33.0" font-weight="700" text-anchor="middle" fill="#222222">(a) 工程任务</text>
+<rect x="530.0" y="46.0" width="640.0" height="710.0" rx="12.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<rect x="556.0" y="23.0" width="588.0" height="46.0" rx="10.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="850.0" y="57.22" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="33.0" font-weight="700" text-anchor="middle" fill="#222222">(b) 用户与交互</text>
+<rect x="1190.0" y="46.0" width="490.0" height="710.0" rx="12.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<rect x="1216.0" y="23.0" width="438.0" height="46.0" rx="10.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="1435.0" y="57.22" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="33.0" font-weight="700" text-anchor="middle" fill="#222222">(c) 执行环境</text>
+<text x="44.0" y="116.18" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="27.0" font-weight="700" text-anchor="start" fill="#222222">五维任务描述</text>
+<rect x="44.0" y="138.0" width="442.0" height="50.0" rx="3.0" fill="#EEEEEE" stroke="none" stroke-width="1.7"/>
+<rect x="67.38" y="147.0" width="10.72" height="10.72" rx="8.0" fill="none" stroke="#497FA9" stroke-width="1.7"/>
+<polyline points="61.35,173.8 61.35,168.44 66.04,163.08 79.44,163.08 84.13,168.44 84.13,173.8" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="110.0" y="171.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">工种</text>
+<rect x="44.0" y="192.0" width="442.0" height="50.0" rx="3.0" fill="#FFFFFF" stroke="none" stroke-width="1.7"/>
+<rect x="58.67" y="203.01" width="28.810000000000002" height="21.44" rx="3.0" fill="none" stroke="#497FA9" stroke-width="1.7"/>
+<polyline points="58.67,209.04 87.48,209.04" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="67.38,213.73 64.7,216.41 67.38,219.09" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="78.77,213.73 81.45,216.41 78.77,219.09" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="70.73,229.14 76.09,229.14" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="73.41,224.45 73.41,229.14" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="110.0" y="225.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">开发平台</text>
+<rect x="44.0" y="246.0" width="442.0" height="50.0" rx="3.0" fill="#EEEEEE" stroke="none" stroke-width="1.7"/>
+<polyline points="64.03,255.0 78.1,255.0 86.14,263.04 86.14,285.82 64.03,285.82 64.03,255.0" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="78.1,255.0 78.1,263.04 86.14,263.04" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="70.06,274.43 74.08,278.45 81.45,270.41" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="110.0" y="279.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">交付物</text>
+<rect x="44.0" y="300.0" width="442.0" height="50.0" rx="3.0" fill="#FFFFFF" stroke="none" stroke-width="1.7"/>
+<rect x="58.0" y="309.0" width="20.77" height="18.76" rx="3.0" fill="none" stroke="#497FA9" stroke-width="1.7"/>
+<polyline points="68.05,327.76 68.05,333.12 61.35,333.12 74.75,333.12" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="81.45" y="317.04" width="10.05" height="19.43" rx="3.0" fill="none" stroke="#497FA9" stroke-width="1.7"/>
+<polyline points="84.8,333.12 88.15,333.12" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="110.0" y="333.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">运行平台</text>
+<rect x="44.0" y="354.0" width="442.0" height="50.0" rx="3.0" fill="#EEEEEE" stroke="none" stroke-width="1.7"/>
+<rect x="59.34" y="369.7" width="26.8" height="20.77" rx="3.0" fill="none" stroke="#497FA9" stroke-width="1.7"/>
+<rect x="67.38" y="363.0" width="10.72" height="6.7" rx="3.0" fill="none" stroke="#497FA9" stroke-width="1.7"/>
+<polyline points="59.34,378.41 86.14,378.41" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="72.74,376.4 72.74,381.09" fill="none" stroke="#497FA9" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="110.0" y="387.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">应用领域</text>
+<rect x="82.0" y="443.0" width="386.0" height="272.0" rx="5.0" fill="#EEEEEE" stroke="#666666" stroke-width="1.7"/>
+<rect x="68.0" y="432.0" width="386.0" height="272.0" rx="5.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<rect x="69.0" y="433.0" width="384.0" height="53.0" rx="4.0" fill="#FFE6CC" stroke="none" stroke-width="1.7"/>
+<text x="92.0" y="469.02" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="28.0" font-weight="700" text-anchor="start" fill="#222222">具体任务定义</text>
+<rect x="99.0" y="517.0" width="6.0" height="6.0" rx="0.0" fill="#666666" stroke="none" stroke-width="1.7"/>
+<text x="124.0" y="528.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">目标</text>
+<rect x="99.0" y="562.0" width="6.0" height="6.0" rx="0.0" fill="#666666" stroke="none" stroke-width="1.7"/>
+<text x="124.0" y="573.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">初始状态</text>
+<rect x="99.0" y="607.0" width="6.0" height="6.0" rx="0.0" fill="#666666" stroke="none" stroke-width="1.7"/>
+<text x="124.0" y="618.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">工程约束</text>
+<rect x="99.0" y="652.0" width="6.0" height="6.0" rx="0.0" fill="#666666" stroke="none" stroke-width="1.7"/>
+<text x="124.0" y="663.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">验收要求</text>
+<rect x="552.0" y="102.0" width="596.0" height="232.0" rx="10.0" fill="#FFFFFF" stroke="#9673A6" stroke-width="1.7" stroke-dasharray="5 4"/>
+<text x="574.0" y="144.86" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="29.0" font-weight="700" text-anchor="start" fill="#222222">潜在用户状态</text>
+<text x="574.0" y="196.5" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="25.0" font-weight="400" text-anchor="start" fill="#222222">目标与偏好</text>
+<text x="574.0" y="240.5" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="25.0" font-weight="400" text-anchor="start" fill="#222222">背景与知识</text>
+<polyline points="878.0,166.0 878.0,268.0" fill="none" stroke="#666666" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<text x="1011.0" y="187.16" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="24.0" font-weight="700" text-anchor="middle" fill="#222222">意图交叉演进</text>
+<polyline points="896.0,212.0 944.0,212.0 992.0,252.0 1040.0,252.0 1088.0,212.0 1126.0,212.0" fill="none" stroke="#9673A6" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="893.0" y="209.0" width="6.0" height="6.0" rx="3.0" fill="#9673A6" stroke="none" stroke-width="1.7"/>
+<rect x="941.0" y="209.0" width="6.0" height="6.0" rx="3.0" fill="#9673A6" stroke="none" stroke-width="1.7"/>
+<rect x="1037.0" y="249.0" width="6.0" height="6.0" rx="3.0" fill="#9673A6" stroke="none" stroke-width="1.7"/>
+<rect x="1123.0" y="209.0" width="6.0" height="6.0" rx="3.0" fill="#9673A6" stroke="none" stroke-width="1.7"/>
+<polyline points="896.0,252.0 944.0,252.0 992.0,212.0 1040.0,212.0 1088.0,252.0 1126.0,252.0" fill="none" stroke="#A0522D" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<rect x="893.0" y="249.0" width="6.0" height="6.0" rx="3.0" fill="#A0522D" stroke="none" stroke-width="1.7"/>
+<rect x="941.0" y="249.0" width="6.0" height="6.0" rx="3.0" fill="#A0522D" stroke="none" stroke-width="1.7"/>
+<rect x="1037.0" y="209.0" width="6.0" height="6.0" rx="3.0" fill="#A0522D" stroke="none" stroke-width="1.7"/>
+<rect x="1123.0" y="249.0" width="6.0" height="6.0" rx="3.0" fill="#A0522D" stroke="none" stroke-width="1.7"/>
+<text x="574.0" y="312.32" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="23.0" font-weight="400" text-anchor="start" fill="#666666">Agent 无法直接观测</text>
+<polyline points="584.0,334.0 584.0,430.0" fill="none" stroke="#666666" stroke-width="2.8" stroke-linejoin="round"/>
+<polygon points="584.0,430.0 588.0,421.0 580.0,421.0" fill="#666666"/>
+<text x="614.0" y="372.5" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="25.0" font-weight="700" text-anchor="start" fill="#222222">表达 · 澄清 · 反馈</text>
+<text x="614.0" y="410.16" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="24.0" font-weight="400" text-anchor="start" fill="#9673A6">逐步、部分显露</text>
+<rect x="552.0" y="430.0" width="596.0" height="284.0" rx="10.0" fill="#F5F5F5" stroke="#666666" stroke-width="1.7"/>
+<text x="574.0" y="472.86" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="29.0" font-weight="700" text-anchor="start" fill="#222222">可观测交互</text>
+<text x="574.0" y="516.0" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="25.0" font-weight="400" text-anchor="start" fill="#222222">语言与表达风格</text>
+<text x="574.0" y="557.0" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="25.0" font-weight="400" text-anchor="start" fill="#222222">已披露的背景信息</text>
+<rect x="574.0" y="597.0" width="24.0" height="24.0" rx="12.0" fill="#FFE6CC" stroke="#222222" stroke-width="1.7"/>
+<polyline points="568.0,648.0 568.0,635.0 578.0,626.0 594.0,626.0 604.0,635.0 604.0,648.0" fill="none" stroke="#222222" stroke-width="2.0" stroke-linejoin="round"/>
+<text x="588.0" y="677.64" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="21.0" font-weight="400" text-anchor="middle" fill="#222222">用户</text>
+<rect x="1090.0" y="598.0" width="36.0" height="31.0" rx="4.0" fill="#E8F0F6" stroke="#222222" stroke-width="1.7"/>
+<polyline points="1096.0,607.0 1102.0,613.0 1096.0,619.0" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1107.0,620.0 1118.0,620.0" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1108.0,629.0 1108.0,640.0 1097.0,640.0 1120.0,640.0" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1110.0" y="677.64" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="21.0" font-weight="400" text-anchor="middle" fill="#222222">Agent</text>
+<rect x="628.0" y="586.0" width="160.0" height="43.0" rx="7.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="708.0" y="615.66" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="24.0" font-weight="400" text-anchor="middle" fill="#222222">请求</text>
+<polyline points="646.0,629.0 638.0,637.0 661.0,629.0" fill="none" stroke="#666666" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="822.0" y="586.0" width="238.0" height="43.0" rx="7.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="941.0" y="615.66" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="24.0" font-weight="400" text-anchor="middle" fill="#222222">澄清</text>
+<polyline points="1030.0,629.0 1050.0,637.0 1042.0,629.0" fill="none" stroke="#666666" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="724.0" y="645.0" width="184.0" height="43.0" rx="7.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="816.0" y="674.66" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="24.0" font-weight="400" text-anchor="middle" fill="#222222">反馈</text>
+<text x="850.0" y="742.82" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="23.0" font-weight="400" text-anchor="middle" fill="#666666">目标可随交互发生变化。</text>
+<rect x="1216.0" y="143.0" width="56.0" height="38.0" rx="3.0" fill="#FFE6CC" stroke="#222222" stroke-width="1.7"/>
+<rect x="1216.0" y="135.0" width="25.0" height="12.0" rx="3.0" fill="#FFE6CC" stroke="#222222" stroke-width="1.7"/>
+<polyline points="1244.0,183.0 1244.0,202.0 1224.0,202.0 1270.0,202.0" fill="none" stroke="#666666" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1216.0" y="202.0" width="16.0" height="22.0" rx="2.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<rect x="1262.0" y="202.0" width="16.0" height="22.0" rx="2.0" fill="#FFFFFF" stroke="#666666" stroke-width="1.7"/>
+<text x="1310.0" y="172.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">工作区结构</text>
+<text x="1310.0" y="212.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">与初始状态</text>
+<polyline points="1214.0,252.0 1656.0,252.0" fill="none" stroke="#666666" stroke-width="1.0" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<rect x="1218.0" y="293.0" width="25.0" height="31.0" rx="4.0" fill="#E8F0F6" stroke="#222222" stroke-width="1.7"/>
+<polyline points="1223.0,302.0 1238.0,302.0" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="1256.0" y="293.0" width="25.0" height="31.0" rx="4.0" fill="#E8F0F6" stroke="#222222" stroke-width="1.7"/>
+<polyline points="1261.0,302.0 1276.0,302.0" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="1237.0" y="355.0" width="25.0" height="31.0" rx="4.0" fill="#E8F0F6" stroke="#222222" stroke-width="1.7"/>
+<polyline points="1242.0,364.0 1257.0,364.0" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="1230.0,324.0 1230.0,340.0 1268.0,340.0 1268.0,324.0" fill="none" stroke="#666666" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1249.0,340.0 1249.0,355.0" fill="none" stroke="#666666" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1310.0" y="330.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">外部依赖</text>
+<text x="1310.0" y="370.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">与服务</text>
+<polyline points="1214.0,410.0 1656.0,410.0" fill="none" stroke="#666666" stroke-width="1.0" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<rect x="1214.0" y="452.0" width="50.0" height="34.0" rx="3.0" fill="#EEEEEE" stroke="#222222" stroke-width="1.7"/>
+<rect x="1233.0" y="485.0" width="50.0" height="34.0" rx="3.0" fill="#E8F0F6" stroke="#222222" stroke-width="1.7"/>
+<polyline points="1258.0,519.0 1258.0,530.0 1244.0,530.0 1272.0,530.0" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1310.0" y="488.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">机器与平台</text>
+<text x="1310.0" y="528.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">配置</text>
+<polyline points="1214.0,568.0 1656.0,568.0" fill="none" stroke="#666666" stroke-width="1.0" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<rect x="1216.0" y="613.0" width="24.0" height="30.0" rx="3.0" fill="#EEEEEE" stroke="#666666" stroke-width="1.7"/>
+<rect x="1255.0" y="670.0" width="24.0" height="30.0" rx="3.0" fill="#FFE6CC" stroke="#666666" stroke-width="1.7"/>
+<polyline points="1253.84,624.0 1237.46,645.06 1249.16,645.06 1244.48,661.44 1265.54,638.82 1253.06,638.82 1253.84,624.0" fill="none" stroke="#A0522D" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1310.0" y="646.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="700" text-anchor="start" fill="#222222">环境事件</text>
+<text x="1310.0" y="686.84" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="26.0" font-weight="400" text-anchor="start" fill="#222222">与状态变化</text>
+<polyline points="20.0,786.0 1680.0,786.0" fill="none" stroke="#666666" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="28.0" y="827.52" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="28.0" font-weight="700" text-anchor="start" fill="#222222">评测场景</text>
+<text x="1002.0" y="827.52" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="28.0" font-weight="400" text-anchor="middle" fill="#222222">工程任务  ×  用户与交互  ×  执行环境</text>
+</svg>

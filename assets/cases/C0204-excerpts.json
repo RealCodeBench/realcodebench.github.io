@@ -1,0 +1,130 @@
+{
+  "id": "C0204",
+  "kind": "game",
+  "image": "game.jpg",
+  "language": {
+    "zh": "德语",
+    "en": "German"
+  },
+  "title": {
+    "zh": "复古游戏：能玩，还要玩得舒服",
+    "en": "Retro game: beyond just playable"
+  },
+  "category": {
+    "zh": "浏览器游戏 · 交互体验",
+    "en": "Browser game · Interaction"
+  },
+  "summary": {
+    "zh": "从一个 HTML 小游戏，迭代到速度、音效、全屏和 HUD 的反复打磨。",
+    "en": "A single-file game evolves through feedback on pacing, sound, fullscreen scaling, and the HUD."
+  },
+  "why": {
+    "zh": "目标一眼能懂；“代码已经改了”和“用户实际看到修复了”之间的差距，也很直观。",
+    "en": "An immediately understandable goal exposes the gap between a code change and a fix the user can actually see."
+  },
+  "artifact": {
+    "file": "space-invaders.html",
+    "message": 63,
+    "confirmation": 64,
+    "sandbox": "allow-scripts",
+    "sourceSHA256": "371af4b843c149ef8220e753efa572a1fee35141161c73e0f6440253f1b387e4",
+    "previewSHA256": "945ba042e0f3b965c18a91ae942179992e5a42c2349cdf7c5d4d7f3ec157f480",
+    "adaptations": "Added a restrictive preview CSP. Fitness mockup only: compiled original Tailwind theme locally, localized icon fonts and avatar, and removed external font loading. No task logic repaired."
+  },
+  "visualLabel": {
+    "zh": "历史 HTML 产物",
+    "en": "Historical HTML artifact"
+  },
+  "visualNote": {
+    "zh": "截图来自历史消息 #63 的完整 HTML 写入，#64 确认写入成功。本地已验证可启动；不代表全屏、音效等要求已全部验收。",
+    "en": "Captured from the complete HTML write in historical message #63, confirmed in #64. Startup was checked locally; full acceptance of fullscreen, sound, and other requirements is not established."
+  },
+  "checks": {
+    "zh": [
+      "游戏能启动、操作、计分并进入结束状态",
+      "全屏时画面与 HUD 一起缩放，且不裁切",
+      "新增音效和速度调整后，原有交互仍可用"
+    ],
+    "en": [
+      "Startup, controls, scoring, and end states",
+      "Scale the game and HUD together without clipping",
+      "Preserve interaction while changing sound and speed"
+    ]
+  },
+  "takeaway": {
+    "zh": "后续用户多次报告全屏仍未放大、HUD 被裁切。这个案例展示反复反馈，不把历史写入成功等同于修复成功。",
+    "en": "Later user messages repeatedly report unchanged fullscreen size and clipped HUD text. A successful file write is not treated as proof of a successful fix."
+  },
+  "turns": [
+    {
+      "sourceIndex": 1,
+      "original": "Schreibe ein komplettes Space-Invaders-Spiel in einer einzigen HTML-Datei (mit integriertem JavaScript und CSS, HTML5 Canvas).",
+      "title": {
+        "zh": "先做一个完整游戏",
+        "en": "Build a complete game"
+      },
+      "translation": {
+        "zh": "用单个 HTML 文件制作完整的 Space Invaders 游戏，内嵌 JavaScript、CSS 和 Canvas。",
+        "en": "Build a complete Space Invaders game in one HTML file with embedded JavaScript, CSS, and Canvas."
+      },
+      "focus": {
+        "zh": "交付目标从一开始就包括可玩性。",
+        "en": "The initial deliverable must be playable."
+      }
+    },
+    {
+      "sourceIndex": 7,
+      "original": "Mach das Spielgeschehen etwas langsamer und flüssiger (Geschwindigkeit der Aliens und Schüsse drosseln).",
+      "title": {
+        "zh": "调整手感，并补音效",
+        "en": "Tune pacing and add sound"
+      },
+      "translation": {
+        "zh": "让游戏更慢、更流畅。同一条消息还要求用 Web Audio 合成音效，并修复全屏退出问题。",
+        "en": "Slow down the action and make it smoother. The same message also requests synthesized Web Audio effects and a fix for exiting fullscreen."
+      },
+      "focus": {
+        "zh": "同一轮反馈同时涉及体验与功能。",
+        "en": "One round of feedback spans experience and functionality."
+      }
+    },
+    {
+      "sourceIndex": 29,
+      "original": "Aber das grösste Problem: der Bildschirm bleibt immer gleich groß, egal ob Vollbild oder nicht, das ist natürlich nicht Sinn der Sache.",
+      "title": {
+        "zh": "全屏了，画面却没有变大",
+        "en": "Fullscreen without a larger game"
+      },
+      "translation": {
+        "zh": "最大的问题是，不论是否全屏，游戏画面始终一样大。",
+        "en": "The biggest problem is that the game remains the same size, whether fullscreen is enabled or not."
+      },
+      "focus": {
+        "zh": "检查实际显示效果，而不是只检查全屏 API。",
+        "en": "Inspect the visible result, not only the fullscreen API."
+      }
+    },
+    {
+      "sourceIndex": 54,
+      "original": "Die HUD-Schrift oben wird im normalen Modus und im Vollbild abgeschnitten und das Spielfeld skaliert nicht korrekt.",
+      "title": {
+        "zh": "反馈进一步定位到 HUD 与容器",
+        "en": "Narrow the issue to HUD and container"
+      },
+      "translation": {
+        "zh": "普通模式和全屏模式都会裁切顶部 HUD，游戏区域缩放也不正确。用户进一步指定共同容器和等比缩放。",
+        "en": "The HUD is clipped in both modes and the playfield scales incorrectly. The user then specifies a shared container and proportional scaling."
+      },
+      "focus": {
+        "zh": "后续约束更具体，但早期要求仍要保留。",
+        "en": "New constraints become more precise while earlier requirements still apply."
+      }
+    }
+  ],
+  "source": {
+    "file": "case-review-site/extractions/C0204.json",
+    "extractionSHA256": "af05f0193cb868d669a91bcdd6daaba24c2465c7daec3f87885f53188c664737",
+    "trajectorySHA256": "6f96f61a35e1823d4b6de95d719dfc3e026e0692c55e7757a34668f4dc2b6298",
+    "note": "Source indices identify historical messages, not benchmark evaluation rounds. Translations and display summaries are editorial."
+  }
+}

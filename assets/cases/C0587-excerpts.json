@@ -1,0 +1,130 @@
+{
+  "id": "C0587",
+  "kind": "fitness",
+  "image": "fitness.jpg",
+  "language": {
+    "zh": "西班牙语",
+    "en": "Spanish"
+  },
+  "title": {
+    "zh": "第一款健身 App：从想法到看得见",
+    "en": "A first fitness app: from idea to something visible"
+  },
+  "category": {
+    "zh": "移动应用与 Web · 新手协作",
+    "en": "Mobile + Web · Novice collaboration"
+  },
+  "summary": {
+    "zh": "用户第一次开发应用，希望管理训练计划，并逐步提出免费方案、登录方式、设计预览与笔记整理要求。",
+    "en": "A first-time app creator wants workout planning, then adds budget preferences, login methods, a visual preview, and organized project notes."
+  },
+  "why": {
+    "zh": "目标来自日常生活，但需求尚未完整。Agent 需要帮助澄清，并遵守用户已有的工作习惯。",
+    "en": "The everyday goal starts underspecified. The agent must help clarify it while respecting the user’s existing workflow."
+  },
+  "artifact": {
+    "file": "fitness-preview.html",
+    "message": 47,
+    "confirmation": 48,
+    "sandbox": "allow-same-origin",
+    "sourceSHA256": "9914d84496deb3a7eea5ca390b04293359ea5e5f9c9abd4fb3a26af3941e6bc2",
+    "previewSHA256": "16fa5f2b10eca8fef613c441b1d5e46e8cff07fa6d5dd1f5d5da82eb29f0e144",
+    "adaptations": "Added a restrictive preview CSP. Fitness mockup only: compiled original Tailwind theme locally, localized icon fonts and avatar, and removed external font loading. No task logic repaired."
+  },
+  "visualLabel": {
+    "zh": "历史 HTML 设计稿",
+    "en": "Historical HTML design mockup"
+  },
+  "visualNote": {
+    "zh": "来自历史消息 #47 的 HTML 设计稿，#48 确认创建成功。外部样式、图标和头像已本地化；保留原设计。姓名、数值、账号及功能文案均为原稿中的界面示例，不代表真实用户、实测结果或已实现功能。",
+    "en": "Recovered from the HTML mockup in message #47, confirmed in #48. External styles, icons, and avatar are localized while preserving the design. Names, values, accounts, and feature copy are mockup examples, not real users, measurements, or implemented capabilities."
+  },
+  "checks": {
+    "zh": [
+      "区分可查看的设计稿与完整可用的 App",
+      "解释步骤并尊重尽量免费的偏好",
+      "把资料整理进已有目录，避免重复创建同名目录"
+    ],
+    "en": [
+      "Distinguish a viewable mockup from a working app",
+      "Explain next steps and respect the low-cost preference",
+      "Organize material in the existing vault without duplicating it"
+    ]
+  },
+  "takeaway": {
+    "zh": "生成设计稿之后，用户指出又在现有笔记目录里创建了同名目录。协作体验还取决于是否正确理解已有环境。",
+    "en": "After the design is created, the user reports a duplicate vault inside the existing vault. Collaboration quality also depends on understanding the existing environment."
+  },
+  "turns": [
+    {
+      "sourceIndex": 3,
+      "original": "quiero crear una app para gestionar y crear rutinas como gym, calistenia o en casa.",
+      "title": {
+        "zh": "第一次做 App，希望得到引导",
+        "en": "A first app, with guidance"
+      },
+      "translation": {
+        "zh": "想做一款管理健身房、徒手和居家训练计划的 App，并提供网页版；希望 Agent 随进展提出建议。",
+        "en": "Build an app and website for gym, calisthenics, and home workouts, with ongoing guidance from the agent."
+      },
+      "focus": {
+        "zh": "用户需要的不只是执行代码。",
+        "en": "The user needs more than code execution."
+      }
+    },
+    {
+      "sourceIndex": 42,
+      "original": "quiero que la mayoria de cosas que hagamos sean gratuitas para ahorrar costes",
+      "title": {
+        "zh": "逐步明确成本与登录方式",
+        "en": "Clarify cost and sign-in preferences"
+      },
+      "translation": {
+        "zh": "尽量采用免费方案节约成本；同一轮提出邮箱密码、Apple 和 Google 登录，并继续澄清 MVP。",
+        "en": "Prefer free options to reduce costs. The same turn requests email/password, Apple, and Google sign-in while clarifying the MVP."
+      },
+      "focus": {
+        "zh": "约束和范围在讨论中形成。",
+        "en": "Constraints and scope form through discussion."
+      }
+    },
+    {
+      "sourceIndex": 46,
+      "original": "haz el html para verlo",
+      "title": {
+        "zh": "先做 HTML，让我看到设计",
+        "en": "Make an HTML preview"
+      },
+      "translation": {
+        "zh": "先生成 HTML，让我看看设计。随后历史记录里出现了可查看的设计稿。",
+        "en": "Create HTML so I can see the design. A viewable mockup follows in the historical record."
+      },
+      "focus": {
+        "zh": "可视化预览帮助用户继续判断。",
+        "en": "A visible preview helps the user make further decisions."
+      }
+    },
+    {
+      "sourceIndex": 52,
+      "original": "porque has creado otra carpeta llamada MiVault en la carpeta MiVault que ya existia?",
+      "title": {
+        "zh": "为什么在已有目录里又建了同名目录？",
+        "en": "Why create a vault inside my existing vault?"
+      },
+      "translation": {
+        "zh": "用户指出在已有 MiVault 内又创建了一个 MiVault，质疑资料组织方式。",
+        "en": "The user questions why another MiVault was created inside the existing MiVault."
+      },
+      "focus": {
+        "zh": "遵守已有工作区结构，也是交付的一部分。",
+        "en": "Respecting the existing workspace is part of delivery."
+      }
+    }
+  ],
+  "source": {
+    "file": "case-review-site/extractions/C0587.json",
+    "extractionSHA256": "b3cff49a152f5ab4b9d297acc8fceb89a0d8187811d073d8f5d0990f9edbc1b1",
+    "trajectorySHA256": "ec84baab5b270dc01f440cd93ade2e7f11ba51bd16d9400b7d46aede124abb6f",
+    "note": "Source indices identify historical messages, not benchmark evaluation rounds. Translations and display summaries are editorial."
+  }
+}
