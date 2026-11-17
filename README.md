@@ -32,4 +32,8 @@ Page presentation references https://github.com/3DCodeFactory/3dcodefactory.gith
 
 ## Scenario dimension explorer
 
-The home page includes three interactive groups: engineering task (five parallel descriptors), user and interaction, and execution environment. Representative labels expand to all values recorded in the 2026-10-20, 600-candidate annotation snapshot. The downloadable `assets/dimension-values.json` contains display labels and source digest only. Free-text user fields use a clearly labeled C0587 example. Snapshot label counts are not final benchmark size or verified acceptance coverage.
+The home page includes three interactive groups: engineering task (five parallel descriptors), user and interaction, and execution environment. Editorial role groupings, a language overview and a paraphrased conversation, and an environment schematic introduce the three groups. A collapsed source panel provides all values recorded in the 2026-10-20, 600-candidate annotation snapshot. The downloadable `assets/dimension-values.json` contains display labels and source digest only. Free-text user fields use a clearly labeled C0587 example. Snapshot label counts are not final benchmark size or verified acceptance coverage.
+
+## Citation
+
+The bilingual citation section supports copying BibTeX and downloading `assets/realcodebench.bib`. It cites the project website, with the confirmed author order, rather than an unreleased paper.
