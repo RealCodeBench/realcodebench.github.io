@@ -37,3 +37,9 @@ The home page includes three interactive groups: engineering task (five parallel
 ## Citation
 
 The bilingual citation section supports copying BibTeX and downloading `assets/realcodebench.bib`. It cites the project website, with the confirmed author order, rather than an unreleased paper.
+
+## Page structure
+
+The page follows five stages: project identity and short motivation, real task examples, benchmark composition, evaluation perspectives, and citation. Cases use thumbnail switching with one large visual and the full request timeline. Detailed provenance stays in a single disclosure; visual-source labels remain visible. Scenario definitions and recorded values share one three-tab component, with the full research diagram in a disclosure. Evaluation is presented as three horizontal rows.
+
+Static asset URLs include content versions. Refresh the version strings in `index.html` when changing JavaScript or CSS so browsers load the matching release.
