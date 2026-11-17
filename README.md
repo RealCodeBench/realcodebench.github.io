@@ -29,3 +29,7 @@ Authors: Mengjie Ren*, Guozhao Mo*, Xingyu Li, Jie Lou†. Xiaohongshu | dots st
 ## Credits
 
 Page presentation references https://github.com/3DCodeFactory/3dcodefactory.github.io. The dots studio mark is used for the shared affiliation. Bundled Font Awesome assets retain their license notice in the CSS header; other third-party assets are used in the restored historical mockup.
+
+## Scenario dimension explorer
+
+The home page includes three interactive groups: engineering task (five parallel descriptors), user and interaction, and execution environment. Representative labels expand to all values recorded in the 2026-10-20, 600-candidate annotation snapshot. The downloadable `assets/dimension-values.json` contains display labels and source digest only. Free-text user fields use a clearly labeled C0587 example. Snapshot label counts are not final benchmark size or verified acceptance coverage.
